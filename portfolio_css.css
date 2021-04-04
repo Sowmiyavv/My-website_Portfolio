@@ -1,0 +1,250 @@
+.body{
+			margin: 0;
+		}
+
+		.header{
+			display: grid;
+			grid-template-columns: 2fr 4.5fr;
+			background-color: linen;
+			position: relative;
+		}
+
+		.header .profile-details{
+			text-align: center;
+			line-height: 5px;
+			padding: 30px;
+			/*background-color: yellow;*/
+
+		}
+
+		.header .menu-bar{
+			text-align: right;
+			position: absolute;
+			top: 40%;
+			right: 0;
+			width: 70%;
+		}
+
+		.menu-bar a
+		{
+			text-decoration: none;
+			padding: 3%;
+			color: black;
+		}
+		.menu-bar a:hover{
+			color:  #f2d9bf;
+			transition: linear 0.5s;
+		}
+		.profile{
+			display: grid;
+			grid-template-columns: 2.5fr 2.5fr;
+			padding: 2% 20%;
+			background-color: linen;
+		}
+
+		.profile .pic{
+			/*background-color: yellow;*/
+		}
+
+		.pic img{
+			object-fit: cover;
+		}
+
+		.profile .profile-details{
+			/*background-color: red;*/
+			font-family: 'Raleway', sans-serif;
+			color: black;
+		}
+
+		.profile-details p{
+			font-size: 22px;
+			margin-left: 10%;
+		}
+
+		.social{
+			background-color: linen;
+			text-align: center;
+		}
+
+		.social a{
+
+			padding-right: 5%;
+			font-size: 30px;
+			color: black;
+		}
+
+		.social i:hover{
+			color:  #f2d9bf;
+		}
+		
+		.about{
+			background-color: linen;
+			margin-top: 10%;
+			font-family: 'Raleway', sans-serif;
+			text-align: center;
+			padding: 10% 5px;
+			/*font-size: 40px;*/
+		}
+		.about p{
+			font-family: 'Raleway', sans-serif;
+			padding: 0px 20%;
+			font-size: 30px;
+			text-align: justify-all;
+		}
+		.education{
+			font-family: 'Raleway', sans-serif;
+			background-color: yellow;
+			text-align: center;
+			align-items: center;
+				margin-top: 10%;
+				background-color:linen;
+		}
+		.education table,th,td{
+			font-family: 'Raleway', sans-seri;
+			border:none;
+			padding: 15px;
+			border-spacing: 30px; 
+			/*margin-top: 3%;*/
+			font-size: 25px;
+			
+		}
+		.education td{
+			margin-left: 10%;
+			border-right: double;
+		}
+		
+		.skills{
+			font-family: 'Raleway', sans-seri;
+			background-color: linen;
+			margin-top: 5%;
+			text-align: center;
+		}
+		.skills table{
+			table-layout: fixed;
+			width:60%;
+			margin-left: 20%;
+			border-spacing: 30px; 
+		}
+		.skills table tr{
+			background-color: #f7e6d4;
+			padding: 10px;
+			text-align: center;
+		}
+		.certificate{
+			background-color: linen;
+			margin-top: 5%;
+			align-items: center;
+			margin-left: 40%;
+			font-family: 'Raleway', sans-seri;
+		}
+		.certificate .course{
+			margin-left: -15%;
+			font-family: 'Raleway',sans-seri;
+		}
+
+		.project{
+			background-color: linen;
+			padding: 6%;
+			color: black;
+		/*	margin-top: 5%;*/
+			font-family:  'Raleway',sans-seri;
+		}
+
+		.project .remote{
+			background-color:  #f7e6d4;
+			font-family: 'Raleway', sans-serif;
+			color: black;
+			padding: 20px;
+		}
+
+		.project a{
+			text-decoration: none;
+		}
+
+		.project a div:hover{
+			background-color:#f2d9bf;
+			color: black;
+			transition: linear 0.5s;
+			transform: scale(1.1);
+		}
+
+		.remote h1{
+			text-align: center;
+		}
+
+		.remote p{
+			font-size: 20px;
+			padding:0px 30px;
+		}
+
+		.remote h3{
+			padding: 0px 30px;
+		}
+
+		.remote ol li{
+			list-style-type: none;
+		}
+
+		.project .attend{
+			margin-top: 5%;
+			background-color: yellow;
+		}
+		.contact{
+			display: grid;
+			grid-template-columns: 2.5fr 2.5fr;
+			background-color: linen;
+			padding: 0% 5%;
+			color: black;
+			font-family: 'Raleway', sans-serif;
+		}
+
+
+		.contact .me{
+			padding-top: 10%;
+		}
+
+		.contact .me h3{
+			margin-left: 10%;
+		}
+
+		.contact a{
+			font-size: 30px;
+			padding-right: 20px;
+			margin-left: 10%;
+			color: black;
+		}
+
+		.contact a:hover{
+			color:  #f7e6d4;
+			transition: linear 0.5s;
+		}
+
+		.contact .share{
+			font-family: 'Raleway', sans-seri;
+			padding: 20px;
+		}
+
+		.share .share-form{
+			margin-left: 10%;
+		}
+
+		input[type=text] {
+		  width: 50%;
+		  padding: 10px 20px;
+		  margin: 8px 0;
+		  box-sizing: border-box;
+		}
+		input[type=mail] {
+		  width: 50%;
+		  padding: 10px 20px;
+		  margin: 8px 0;
+		  box-sizing: border-box;
+		}
+		input[type=submit] {
+		  width: 20%;
+		  padding: 6px 10px;
+		  margin: 5px 0;
+		  box-sizing: border-box;
+		  font-family:  'Raleway', sans-seri;
+		}
+
